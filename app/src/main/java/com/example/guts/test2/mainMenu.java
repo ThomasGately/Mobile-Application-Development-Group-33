@@ -35,8 +35,8 @@ public class mainMenu extends AppCompatActivity {
         DBHandlerGrim dbHandlerGrim = new DBHandlerGrim(this);
         SQLiteDatabase db = dbHandlerGrim.getReadableDatabase();
 
-        User user = new User("Thomas", "Gately", "kek@gmail.com",
-                    "kek", 1.0, 1.0);
+        User user = new User("Thomas", "Gately", "Thomas@gmail.com",
+                    "Gately", 1.0, 1.0);
 
             dbHandlerGrim.insertUser(db, user);
 
