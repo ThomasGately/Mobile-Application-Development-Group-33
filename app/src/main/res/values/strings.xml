@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Diabetes Assistant</string>
+    <string name="tipsCategory">(Select)</string>
+    <string name="calculatedNum">(X)</string>
+    <string name="specificTips">(Tips)</string>
+    <string name="targetBS">120</string>
+    <string name="OPOutputBox">Example</string>
+    <string-array name="Categories">
+        <item>Usage</item>
+        <item>Injections</item>
+        <item>Diet</item>
+        <item>Exercise</item>
+    </string-array>
+</resources>
